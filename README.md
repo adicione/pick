@@ -1,28 +1,29 @@
 # Pick
-Short description and motivation.
 
-## Usage
-How to use my plugin.
+A wrapper for Air DatePicker 3.6.0
 
 ## Installation
+
+The host app needs Stimulus installed and configured.
+
 Add this line to your application's Gemfile:
 
 ```ruby
-gem "pick"
+gem "pick", git: "https://github.com/adicione/pick"
 ```
 
-And then execute:
+And run...
+
 ```bash
-$ bundle
+bundle install
 ```
 
-Or install it yourself as:
-```bash
-$ gem install pick
+Add this to your application.scss file:
+
+```scss
+@use "pick/styles";
 ```
 
-## Contributing
-Contribution directions go here.
+## Usage
 
-## License
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+Todo...
